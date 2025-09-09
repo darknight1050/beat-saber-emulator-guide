@@ -21,7 +21,7 @@ Now add the `emulator` folder inside your Android SDK to path.
 Run the following command to create the emulator, you can change the name if you'd like
 
 ```
-avdmanager create avd -n android13desktop -k 'system-images;android-33;android-desktop;x86_64'
+avdmanager create avd -n android13desktop -k "system-images;android-33;android-desktop;x86_64"
 ```
 - By default avds will be created in `~/.android/avd`, if you would like to move this elsewhere, say to an external drive, set the `ANDROID_AVD_HOME` environment variable to the containing folder.
 
