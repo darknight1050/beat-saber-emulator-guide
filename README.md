@@ -6,12 +6,12 @@ Download the command line tools from the bottom of the [Android Studio Downloads
 
 Extract them to the following folder structure then add the bin folder to path:
 - Linux/MacOs: `~/Android/Sdk/cmdline-tools/latest/bin`
-- Windows: `%USERPROFILE%/Android/Sdk/cmdline-tools/latest/bin`
+- Windows: `%USERPROFILE%\Android\Sdk\cmdline-tools\latest\bin`
 
 Open a terminal and run the following command to install the emulator versions
 
 ```
-sdkmanager emulator 'system-images;android-33;android-desktop;x86_64'
+sdkmanager emulator "system-images;android-33;android-desktop;x86_64"
 ```
 - You can experiment with different images, but I found issues with other versions such as ndk translation either not being present or crashing with beat saber, or just other android changes
 
